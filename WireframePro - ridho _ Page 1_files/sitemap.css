@@ -1,0 +1,440 @@
+
+.SaveB{
+	border: none;
+	box-shadow:none !important;
+	background-image: none;
+	
+}
+.WrapperSiteMap{
+	border-radius: 5px;
+	background-color:#fff;
+	border:1px solid #E0E0E0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+
+}
+
+.rootSiteMap .DelB
+{
+	 display:none !important;
+}
+
+.mfNodeThumbnail
+{
+	display:none;
+	text-align: center;
+    margin-top: 5px;
+}
+
+.Nodes{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color:#000;
+	border-radius: 12px;
+    text-align:center;
+    border:0px solid #000;
+    background-color:#f3f7fb;
+}
+
+.AddB{
+	    border: 0px;
+    background-image: none;
+    box-shadow: none !important;
+    left: 0px !important;
+    width: 20px !important;
+    text-align: center;
+    /* background: aqua; */
+    top: 3px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px !important;
+    color: #fff;
+    line-height: 21px;
+    border-radius: 50%;
+    background: #3CA3D6;
+}
+
+.DelB{
+	border: 0px;
+    background-image: none;
+    box-shadow: none !important;
+    right: 0px !important;
+    width: 20px !important;
+    text-align: center;
+    /* background: aqua; */
+    top: 3px;
+    color: #D8334A;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px !important;
+    color: #fff;
+    line-height: 21px;
+    border-radius: 50%;
+    background: #E84849;
+}
+
+
+.CollapseSiteMap
+{
+	border-radius: 15px;
+    width: 20px;
+    border: 0px;
+    background-image: none;
+    box-shadow: none !important;
+    position: absolute;
+    top: -9px;
+    z-index: 999;
+    /* left: 52px; */
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px !important;
+    background: #0088CC;
+    height: 20px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-left: -1px;
+	
+}
+.CollapseSiteMap img,.ExpandSiteMap img
+{
+	width:16px;
+}
+.ExpandSiteMap
+{
+	border-radius: 15px;
+    width: 20px;
+    border: 0px;
+    background-image: none;
+    box-shadow: none !important;
+    position: absolute;
+    bottom: -15px;
+    z-index: 999;
+    /* left: 52px; */
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px !important;
+    background: #0088CC;
+    height: 20px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 50%;
+    display:none;
+    margin-left: -1px;
+	
+}
+.topheading{
+	height : 150px;
+	width : 100%;
+}
+.n1{
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.n2{
+	margin-left:20px;
+	margin-top:20px;
+}
+.n3{
+	margin-left:20px;
+	margin-top:20px;
+}
+#nodeDatatxt{
+	resize:none;
+}
+.sidebar{
+	border-radius: 5px;
+}
+#sbtitle{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+#sbtitletxt{
+	font-weight: bold;
+	font-size: medium;
+}
+.sbRoundRect{
+	border-radius: 5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#cacaca;
+}
+.inputbox{
+	line-height: 20px;
+	border: none;
+	box-shadow:none !important;
+	height:80%;
+	width:94.5%;
+	margin-left:2%;
+}
+.inputboxC{
+	line-height: 20px;
+	
+	height:50%;
+	width:95%;
+	margin-left:1%;
+	margin-top:2%;
+}
+.sbicon{
+	border-width:1px;
+	border-color:#cacaca;
+	border-style:solid;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	margin-left:-1px;
+	margin-top:-1px;
+	margin-bottom:-1px;
+}
+
+
+#TreeCanvas,#mfSiteMapHolder
+{
+	   
+}
+
+.AddB
+{
+	display:none;
+	
+}
+.DelB
+{
+	display:none;
+}
+
+
+.WrapperSiteMap
+{
+	font-family:'PT Sans';
+	background-color:#fff;
+}
+
+.WrapperSiteMap .Nodes
+{
+	
+    width: 100%;
+    background: transparent;
+    padding: 4px;
+    box-sizing: border-box;
+    color: #000;
+    max-height:40px;
+       
+}
+
+.mfExpCollapCls
+{
+	display: none;
+   position: absolute;
+    height: 30px;
+    width: 100%;
+    top: 100%;
+    
+}
+
+.mfExpCollapCls a
+{
+	font-size:14px;
+	cursor:pointer;
+	text-decoration:none;
+	z-index: 99;
+}
+
+
+
+.centered-axis-x {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.centered-axis-y {
+    position: absolute;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+
+
+
+.centered-axis-xy {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.WrapperSiteMap:hover .AddB,.WrapperSiteMap:hover .DelB,.WrapperSiteMap:hover .mfExpCollapCls
+{
+	display:block;
+}
+
+.WrapperSiteMap[data-haschild=no] .CollapseSiteMap
+{
+	display:none;
+}
+
+.WrapperSiteMap[data-expcolstate=collapsed] .ExpandSiteMap
+{
+	display:block;
+}
+
+.WrapperSiteMap .Nodes.fullheight
+{
+    
+	height:30px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	text-align: center;
+	padding: 10px;
+	
+}
+.WrapperSiteMapHover:hover .mfNodeIcon
+{
+	display:none;
+}
+
+
+#SiteMapVLine
+{
+	display:none;
+	height:40px;
+}
+  
+
+#mfSiteMapHolder .WrapperSiteMap[data-status=published]:before
+{
+	content:"";
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:#4CAF50;
+	border: 1px solid #fff;
+    top: -1px;
+    z-index: 4;
+}
+
+#mfSiteMapHolder .WrapperSiteMap[data-status=todo]:before
+{
+	content:"";
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:#FF6D00;
+	border: 1px solid #fff;
+    top: -1px;
+    z-index: 4;
+}
+
+
+#mfSiteMapHolder .WrapperSiteMap[data-status=inprogress]:before 
+{
+	content:"";
+	position:absolute;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:#FFCA28;
+	border: 1px solid #fff;
+    top: -1px;
+    z-index: 4;
+}
+
+.mfNodeHeader
+{
+	 position: absolute;
+    z-index: 14;
+    top: -10px;
+    right: -5px;
+    font-size: 14px;
+    display: none;
+    cursor: pointer;
+    color: #0088CC;
+}
+
+.WrapperSiteMap:hover .mfNodeHeader
+{
+	 display:block;
+}
+
+#mfSiteMapHolder .selectedNode
+{
+	border:1px solid #4A89DC;
+}
+
+#mfSiteMapContainer
+{
+	height:100%;
+	position:relative;
+}
+
+#mfSiteMapHolder .WrapperSiteMap {
+	background-color:#FFFFFF;
+	border-radius:5px;
+	border: 1px solid #fff;
+	font-family: 'PT Sans', sans-serif !important; 
+	
+ }
+ 
+ #mfSiteMapHolder .WrapperSiteMap.selectedNode {
+    border: 1px solid #90A4AE;
+    box-sizing:border-box;
+}
+ 
+.WrapperSiteMap .Nodes{
+ 	color:#666;
+ }
+ 
+
+ .AddB
+{
+   color:#fff;
+   background: #2980b9;
+}
+
+.DelB
+{
+	color:#fff;
+    background: #c0392b;
+}
+
+
+.CollapseSiteMap
+{
+	background: #2998b9;
+   	color: #fff;
+}
+
+.ExpandSiteMap
+{
+   background: #2998b9;
+   color: #fff;
+}
+
+.mfNodeHeader
+{
+	color:#2196F3;
+}
+
+
+#mfSiteMapHolder .WrapperSiteMap:before
+{
+	content: "";
+	top: -4px !important;
+    left: -3px !important;
+}
+
+  .NodeOverColor
+ {
+ 	background-color: #E0E0E0 !important;
+ }
+ 
+.modal-backdrop.background-backdrop 
+{
+    background: #787878;
+    opacity: 1;
+}
